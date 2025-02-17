@@ -33,7 +33,7 @@ h1{
         display: block; /*es como se va a posicionar un elemento*/
         font-weight: bold; /*es para establecer el grosor de la fuente de un texto*/
         margin-top: 15px; /*es para establecer el espacio en la parte superior*/
-        color: rgb(0, 238, 255); /*se utiliza para establecer el color de texto*/
+        color: white; /*se utiliza para establecer el color de texto*/
         align-items: center; /*es un contenedor para alinear elementos*/
         text-anchor: middle; /*es para alinear el texto con un punto de referencia*/
         text-indent: 130px; /* desplaza hacia la derecha un reglon de un loque te texto*/
@@ -50,7 +50,7 @@ h1{
     }
     
     button {
-        background-color: rgb(203, 122, 211); /*sirve para colocar color de fondo*/
+        background-color: rgb(211, 122, 122); /*sirve para colocar color de fondo*/
         color: rgb(20, 15, 9); /*sirve para colocarle color al texto*/
         padding: 15px; /*sirve para añadir espacio*/
         border:  none; /*elimina bordes del elemento*/
