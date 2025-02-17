@@ -1,0 +1,65 @@
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(fondo.jpg);
+    height: 100vh;
+    margin: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    }
+
+    
+    .formulario-container {
+        align-items: center;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    #pres {  
+    border-radius: 95px;
+    height: 400px;
+    width: 480px;
+    border-radius: 50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    }
+    
+    label {
+        display: block;
+        font-weight: bold;
+        margin-top: 15px;
+        color: aqua;
+        align-items: center;
+        text-anchor: middle;
+        text-indent: 130px;
+        font-size: xx-large;
+        text-decoration-line:  ;
+    
+    }
+    
+    input {
+        width: 100%;
+        padding: 20px;
+        margin top: 5px;
+        border:1px solid #ccc;
+    }
+    
+    button {
+        background-color: rgb(203, 122, 211);
+        color: rgb(20, 15, 9);
+        padding: 15px;
+        border:  none;
+        border-radius: px;
+        width: 110%;
+        cursor: pointer;
+        font-size: 25px;
+        margin-top: 15px;
+        align-content: center;
+        }
+
+      
+   
+
