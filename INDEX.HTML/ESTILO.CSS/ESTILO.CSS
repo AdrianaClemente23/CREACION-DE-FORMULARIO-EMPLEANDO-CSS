@@ -1,63 +1,64 @@
 
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url(fondo.jpg);
-    height: 100vh;
-    margin: 5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-    }
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*es para especificar el tipo de letra*/
+    background-image: url(fondo.jpg); /*sirve para colocar un fondo en todo el cuerpo del documento*/
+    height: 100vh; /*se utiliza para definir la altura de un elemento*/
+    margin: 5; /*se utiliza para definir el espacio alrededor del elemento*/
+    display: flex; /*para definir como mostrar un elemento*/
+    justify-content: center; /*para alinear o distribuir*/
+    align-items: center; /*alinear elementos */
+}
 
+h1{
+    color: white;
+    text-decoration: underline;
+}
     
     .formulario-container {
-        align-items: center;
-        border-radius: 10px;
-        text-align: center;
+        align-items: center;/*es para alinear elementos*/
+        border-radius: 10px; /*se utiliza para redondear las esquinas*/
+        text-align: center; /*es para centrar el texto*/
     }
     
     #pres {  
-    border-radius: 95px;
-    height: 400px;
-    width: 480px;
-    border-radius: 50px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
+    border-radius: 95px; /*es para redondear las esquinas de una imagen*/
+    height: 400px; /*para definir la altura de un elemento*/
+    width: 480px; /*para definir el ancho de un elemento*/
+    border-radius: 100px; /* es para definir el borde de una imagen*/
+    align-items: center;
     }
     
     label {
-        display: block;
-        font-weight: bold;
-        margin-top: 15px;
-        color: aqua;
-        align-items: center;
-        text-anchor: middle;
-        text-indent: 130px;
-        font-size: xx-large;
-        text-decoration-line:  ;
+        display: block; /*es como se va a posicionar un elemento*/
+        font-weight: bold; /*es para establecer el grosor de la fuente de un texto*/
+        margin-top: 15px; /*es para establecer el espacio en la parte superior*/
+        color: rgb(0, 238, 255); /*se utiliza para establecer el color de texto*/
+        align-items: center; /*es un contenedor para alinear elementos*/
+        text-anchor: middle; /*es para alinear el texto con un punto de referencia*/
+        text-indent: 130px; /* desplaza hacia la derecha un reglon de un loque te texto*/
+        font-size: xx-large; /*establece el tamaño de letra*/
+        text-decoration-line:  ; /*se usa para aplicar decoraciones al texto*/
     
     }
     
     input {
-        width: 100%;
-        padding: 20px;
-        margin top: 5px;
-        border:1px solid #ccc;
+        width: 100%; /*establece el ancho de un elemento*/
+        padding: 20px; /*es para el espacio interno entre elementos*/
+        margin top: 5px; /* define un margen sobre un elemento*/
+        border:1px solid #ccc; /*aplica un borde de grosor*/
     }
     
     button {
-        background-color: rgb(203, 122, 211);
-        color: rgb(20, 15, 9);
-        padding: 15px;
-        border:  none;
-        border-radius: px;
-        width: 110%;
-        cursor: pointer;
-        font-size: 25px;
-        margin-top: 15px;
-        align-content: center;
+        background-color: rgb(203, 122, 211); /*sirve para colocar color de fondo*/
+        color: rgb(20, 15, 9); /*sirve para colocarle color al texto*/
+        padding: 15px; /*sirve para añadir espacio*/
+        border:  none; /*elimina bordes del elemento*/
+        width: 108%; /*establece el ancho de un elemento*/
+        cursor: pointer; /*cambia el cursor al estilo del puntero*/
+        font-size: 20px; /*define el tamaño de fuente de un texto*/
+        margin-top: 20px; /*establece margenes superiores*/
+        align-content: center; /*alinea el contenido dentro de un contenedor*/
         }
 
       
